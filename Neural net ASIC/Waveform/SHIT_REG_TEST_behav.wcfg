@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SHIT_REG_TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SHIT_REG_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1142000001fs"></ZoomEndTime>
+      <Cursor1Time time="1600000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="50"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/SHIT_REG_TEST/CNT_STATE" type="array">
+      <obj_property name="ElementShortName">CNT_STATE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_STATE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN0" type="array">
+      <obj_property name="ElementShortName">DATA_IN0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN0[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN1" type="array">
+      <obj_property name="ElementShortName">DATA_IN1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN1[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN2" type="array">
+      <obj_property name="ElementShortName">DATA_IN2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN2[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN3" type="array">
+      <obj_property name="ElementShortName">DATA_IN3[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN3[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN4" type="array">
+      <obj_property name="ElementShortName">DATA_IN4[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN4[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN5" type="array">
+      <obj_property name="ElementShortName">DATA_IN5[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN5[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_IN6" type="array">
+      <obj_property name="ElementShortName">DATA_IN6[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN6[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT0" type="array">
+      <obj_property name="ElementShortName">DATA_OUT0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT0[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT1" type="array">
+      <obj_property name="ElementShortName">DATA_OUT1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT1[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT2" type="array">
+      <obj_property name="ElementShortName">DATA_OUT2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT2[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT3" type="array">
+      <obj_property name="ElementShortName">DATA_OUT3[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT3[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT4" type="array">
+      <obj_property name="ElementShortName">DATA_OUT4[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT4[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT5" type="array">
+      <obj_property name="ElementShortName">DATA_OUT5[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT5[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/DATA_OUT6" type="array">
+      <obj_property name="ElementShortName">DATA_OUT6[5:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT6[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/REG_SIZE" type="array">
+      <obj_property name="ElementShortName">REG_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHIT_REG_TEST/uut/REG" type="array">
+      <obj_property name="ElementShortName">REG[6:0][6:0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">REG[6:0][6:0][5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
