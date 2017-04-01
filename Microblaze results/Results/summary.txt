@@ -1,0 +1,16 @@
+Summary:
+
+learning time : 96042 clks = 768us
+levenstine dis : 2161 clks = 17us
+
+simulating time:
+id1:	2308344	clks = 18467us
+id2:  	2308620	clks = 18469us
+id3:	2308357 clks = 18467us
+id4:	2308158 clks = 18465us
+id5:	2308610 clks = 18469us
+id6:	2274592 clks = 18196us
+id7:	2207034 clks = 17656us
+id8:	2274787 clks = 18198us
+
+sequential unchanged count set to 300

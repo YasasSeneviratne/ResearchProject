@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Yasas Seneviratne
 // 
 // Create Date: 11/28/2016 07:37:55 PM
 // Design Name: 
@@ -28,7 +28,7 @@ module FINAL_CALCULATOR(
     CNT_FINISH
     );
     
-    parameter ARRAY_SIZE = 7;
+    parameter ARRAY_SIZE = 16;
     input [ARRAY_SIZE-1:0] COMP_IN;     //comparator outputs
     input CLK;
     input CE;
@@ -57,7 +57,7 @@ module FINAL_CALCULATOR(
     begin
         for(i=0;i<ARRAY_SIZE;i=i+1)
         begin
-            LOGICAL[i] = !(REG[i][0] ^ REG[i][1]);
+            LOGICAL[i] = !(REG[i][0] ^ REG[i][1]);  //xnor to check if both are the same
         end
         
         if(&LOGICAL)

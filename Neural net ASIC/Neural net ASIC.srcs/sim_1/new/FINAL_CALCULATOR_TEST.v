@@ -39,7 +39,7 @@ module FINAL_CALCULATOR_TEST;
         begin
             #100
             CLK = !CLK;
-            if(COMP_IN == 7'd7)
+            if(COMP_IN == 7'd6 && !CNT_FINISH)
                 COMP_IN = COMP_IN;
             else
                 COMP_IN = COMP_IN + 1;

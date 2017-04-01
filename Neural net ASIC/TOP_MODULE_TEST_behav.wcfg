@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_MODULE_TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_MODULE_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="37600000001fs"></ZoomEndTime>
+      <Cursor1Time time="10750000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="240"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/TOP_MODULE_TEST/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/OPERATION" type="array">
+      <obj_property name="ElementShortName">OPERATION[1:0]</obj_property>
+      <obj_property name="ObjectShortName">OPERATION[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/DATA" type="logic">
+      <obj_property name="ElementShortName">DATA</obj_property>
+      <obj_property name="ObjectShortName">DATA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/PATTERN" type="array">
+      <obj_property name="ElementShortName">PATTERN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PATTERN[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/PATTEREN_VALID" type="logic">
+      <obj_property name="ElementShortName">PATTEREN_VALID</obj_property>
+      <obj_property name="ObjectShortName">PATTEREN_VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/FINAL_CALCULATOR/REG" type="array">
+      <obj_property name="ElementShortName">REG[15:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">REG[15:0][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/COMP_IN" type="array">
+      <obj_property name="ElementShortName">COMP_IN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">COMP_IN[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/RECCURRENT_PATTERN" type="array">
+      <obj_property name="ElementShortName">RECCURRENT_PATTERN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RECCURRENT_PATTERN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/RECCURENT_CAL" type="logic">
+      <obj_property name="ElementShortName">RECCURENT_CAL</obj_property>
+      <obj_property name="ObjectShortName">RECCURENT_CAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/DATA_FINAL" type="logic">
+      <obj_property name="ElementShortName">DATA_FINAL</obj_property>
+      <obj_property name="ObjectShortName">DATA_FINAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/START_FINAL_CALC" type="logic">
+      <obj_property name="ElementShortName">START_FINAL_CALC</obj_property>
+      <obj_property name="ObjectShortName">START_FINAL_CALC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/FINAL_PATTERN" type="array">
+      <obj_property name="ElementShortName">FINAL_PATTERN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FINAL_PATTERN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group65" type="group">
+      <obj_property name="label">PE0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/IN_SHIFT_REG" type="array">
+         <obj_property name="ElementShortName">IN_SHIFT_REG[5:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_SHIFT_REG[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/IN_FIFO" type="array">
+         <obj_property name="ElementShortName">IN_FIFO[5:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_FIFO[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/IN_DATA" type="logic">
+         <obj_property name="ElementShortName">IN_DATA</obj_property>
+         <obj_property name="ObjectShortName">IN_DATA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/CE" type="logic">
+         <obj_property name="ElementShortName">CE</obj_property>
+         <obj_property name="ObjectShortName">CE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/IN_REG" type="array">
+         <obj_property name="ElementShortName">IN_REG[5:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_REG[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/OP_REG" type="array">
+         <obj_property name="ElementShortName">OP_REG[5:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_REG[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/PE0/OP_FIFO" type="array">
+         <obj_property name="ElementShortName">OP_FIFO[5:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_FIFO[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/TOP_MODULE_TEST/uut/REG" type="array">
+      <obj_property name="ElementShortName">REG[15:0][5:0]</obj_property>
+      <obj_property name="ObjectShortName">REG[15:0][5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group67" type="group">
+      <obj_property name="label">Reg array</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/SHIFT_REG_ARRAY/REG" type="array">
+         <obj_property name="ElementShortName">REG[15:0][15:0][5:0]</obj_property>
+         <obj_property name="ObjectShortName">REG[15:0][15:0][5:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group109" type="group">
+      <obj_property name="label">controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/CONTROLLER/STATE" type="array">
+         <obj_property name="ElementShortName">STATE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/CONTROLLER/RECCURENT_CAL" type="logic">
+         <obj_property name="ElementShortName">RECCURENT_CAL</obj_property>
+         <obj_property name="ObjectShortName">RECCURENT_CAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/CONTROLLER/STATE_RECURENT_CAL" type="logic">
+         <obj_property name="ElementShortName">STATE_RECURENT_CAL</obj_property>
+         <obj_property name="ObjectShortName">STATE_RECURENT_CAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/CONTROLLER/START_FINAL_CALC" type="logic">
+         <obj_property name="ElementShortName">START_FINAL_CALC</obj_property>
+         <obj_property name="ObjectShortName">START_FINAL_CALC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/COUNTER" type="array">
+         <obj_property name="ElementShortName">COUNTER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">COUNTER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/CONTROLLER/PE_CE" type="array">
+         <obj_property name="ElementShortName">PE_CE[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PE_CE[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/FIFO_ARRAY/CE_FIFO" type="array">
+         <obj_property name="ElementShortName">CE_FIFO[14:0]</obj_property>
+         <obj_property name="ObjectShortName">CE_FIFO[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/CONTROLLER/PE_SETREG" type="array">
+         <obj_property name="ElementShortName">PE_SETREG[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PE_SETREG[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group133" type="group">
+      <obj_property name="label">Final Cal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/FINAL_CALCULATOR/CE" type="logic">
+         <obj_property name="ElementShortName">CE</obj_property>
+         <obj_property name="ObjectShortName">CE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/FINAL_CALCULATOR/COMP_IN" type="array">
+         <obj_property name="ElementShortName">COMP_IN[15:0]</obj_property>
+         <obj_property name="ObjectShortName">COMP_IN[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TOP_MODULE_TEST/uut/FINAL_CALCULATOR/REG" type="array">
+         <obj_property name="ElementShortName">REG[15:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">REG[15:0][1:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
